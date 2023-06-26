@@ -1,0 +1,51 @@
+*, *::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #cc99ff;
+}
+
+h1{
+    color: black;
+    font-size: 4rem;
+    text-align: center;
+    margin: 1rem auto;
+}
+
+.container{
+    width: 60%;
+    height: 70vh;
+    background: url("images/img_1.jpg") center/cover fixed no-repeat;
+    margin: 4rem auto;
+    border-radius: 10px;
+    box-shadow: 10px 10px 30px #aaaaaa;
+    position: relative;
+}
+
+.btnLeft{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 3rem;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    background-color: #7300e6;
+}
+
+.btnRight{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    border: 1px solid black;
+    padding: 15px;
+    font-size: 3rem;
+    transform: translate(50%, -50%);
+    cursor: pointer;
+    background-color: #7300e6;
+}
